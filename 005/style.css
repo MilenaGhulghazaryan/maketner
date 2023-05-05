@@ -1,0 +1,630 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header {
+    width: 100%;
+    height: 113px;
+    margin: auto;
+    background-color: rgb(235, 79, 78);
+    background-image: url(img/header1.png);
+}
+
+.header {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 77%;
+    align-items: center;
+}
+
+header img {
+    width: 48px;
+    height: 37px;
+}
+
+header ul {
+    font-size: 1.2vw;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    display: flex;
+    width: 60%;
+    align-items: center;
+    height: 109px;
+    justify-content: space-around;
+}
+
+.menu2 {
+    display: none;
+    width: 120px;
+    height: 115px;
+    /* width: 220px;
+    height: 200px; */
+    background: #e1adad;
+    position: absolute;
+    text-align: center;
+    line-height: 1.2;
+    right: -48px;
+    text-align: center;
+}
+
+.fa.fa-bars {
+    display: none;
+    position: relative;
+}
+
+.fa.fa-bars:hover .menu2 {
+    display: block;
+}
+
+.menu2 li:hover {
+    background: rgb(176, 62, 62);
+    color: wheat;
+    width: 100%;
+    border-radius: 0;
+}
+
+header ul li:hover {
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: rgb(35, 35, 36);
+    width: 16%;
+    height: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 1.8vw;
+    font-family: "Bariol";
+    color: rgb(255, 255, 255);
+    line-height: 0.8;
+    text-align: left;
+}
+
+.logo p {
+    font-size: 1vw;
+    font-family: "Bariol";
+    color: rgb(255, 255, 255);
+    line-height: 1.412;
+}
+
+.section {
+    background-image: url(img/iPhone\ screen.png);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 200px;
+    width: 57%;
+    height: 430px;
+    /* margin: auto; */
+}
+
+#left, #right {
+    color: white;
+    font-size: 14vw;
+    margin-top: 9%;
+}
+
+.leftRight {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-color {
+    background-color: rgb(235, 79, 78);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section2 {
+    background-color: black;
+    width: 100%;
+    height: 279px;
+}
+
+.section2 h2 {
+
+    font-size: 2vw;
+    font-family: "Bariol";
+    color: rgb(255, 255, 255);
+    line-height: 1.6;
+}
+
+.section2 p {
+    font-size: 20px;
+    font-family: "Bariol";
+    color: rgb(217, 73, 72);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.img1 {
+    width: 4%;
+    height: 41px;
+}
+
+.img1, .img2, .img3 {
+    height: 4.4vw;
+    width: 38%;
+}
+
+.shape {
+    position: absolute;
+    grid: 10%;
+    height: 2vw;
+    left: 33.6%;
+    margin-top: 1.2%;
+}
+
+.icons {
+    width: 44%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.section2 h2 {
+    text-align: center;
+}
+
+.sec2-part1, .sec2-part2, .sec2-part3 {
+    height: 203px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec2-part1 h3, .sec2-part2 h3, .sec2-part3 h3 {
+    font-size: 1.5vw;
+    font-family: "Bariol";
+    color: rgb(255, 255, 255);
+    line-height: 1.7;
+    text-align: center;
+}
+
+.section2 p {
+    font-size: 1.1vw;
+    text-align: center;
+}
+
+.section3 {
+    width: 100%;
+    height: 519px;
+    background-color: rgb(108, 195, 114);
+}
+
+.section3 p {
+    font-size: 1.5vw;
+    font-family: "Bariol";
+    color: rgb(35, 35, 36);
+    line-height: 2;
+    text-align: center;
+}
+
+.sec3-images {
+    width: 71%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec3-box1 .image1 {
+    margin-left: 6%;
+    height: 50%;
+    width: 84%;
+}
+
+.sec3-box1 {
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 226px;
+    height: 342px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sec3-box1 h2 {
+    font-size: 1.8vw;
+    font-family: "Bariol";
+    color: rgb(97, 175, 102);
+    line-height: 0.96;
+    text-align: center;
+}
+
+.sec3-box1 p {
+    font-size: 1.4vw;
+    font-family: "Bariol";
+    color: rgb(231, 76, 60);
+    line-height: 1.167;
+    text-align: center;
+}
+
+.sec3-box1 button {
+    border-radius: 3px;
+    background-color: rgb(108, 195, 114);
+    width: 83%;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border: navajowhite;
+    margin-left: 8%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.twitter {
+    width: 17%;
+    height: 21px;
+}
+
+.section3 h3 {
+    font-size: 2.3vw;
+    font-family: "Bariol";
+    color: rgb(255, 255, 255);
+    line-height: 2;
+    text-align: center;
+}
+
+.section4 {
+    width: 100%;
+    background-color: rgba(236, 236, 236, 0.8);
+    height: 560px;
+}
+
+.section4 h3 {
+    font-size: 2.19vw;
+    font-family: "Bariol";
+    color: rgb(97, 97, 97);
+    line-height: 2.4;
+    text-align: center;
+}
+
+.section4 p {
+    font-size: 1vw;
+    font-family: "Bariol";
+    color: rgb(97, 175, 102);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.sec4-images {
+    width: 56%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+
+.sec4-images .arrow {
+    width: 17px;
+    height: 25px;
+    margin-top: 8%;
+}
+
+.sec4-images .arrow2 {
+    width: 17px;
+    height: 25px;
+    margin-top: 8%;
+}
+
+.sec4-box1, .sec4-box2, .sec4-box3, .sec4-box4 {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 150px;
+}
+
+.sec4-box1 h4, .sec4-box2 h4, .sec4-box3 h4, .sec4-box4 h4 {
+    font-size: 1.2vw;
+    font-family: "Bariol";
+    color: rgb(35, 35, 36);
+    line-height: 2.684;
+    text-align: center;
+}
+
+.ellipse {
+    border-radius: 50%;
+    background-color: rgb(101, 101, 101);
+}
+
+.ellipse4 {
+    border-radius: 50%;
+    background-color: rgb(108, 195, 114);
+    width: 10px;
+    height: 10px;
+}
+
+.ell {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 1%;
+}
+
+.box1, .box2 {
+    width: 31%;
+    height: 270px;
+    background-color: aqua;
+    margin-top: -8%;
+    border-radius: 5%;
+    background-image: -webkit-linear-gradient(90deg, rgb(242, 239, 236) 0%, rgb(254, 254, 254) 100%);
+}
+
+.box2 {
+    margin-top: -12%;
+    height: 286px;
+}
+
+.box2 ul {
+    font-size: 1.2vw;
+    font-family: "Bariol";
+    color: rgb(97, 97, 97);
+    line-height: 2.778;
+    text-align: center;
+    height: 200px;
+}
+
+.box1 h2 {
+    font-size: 2vw;
+    font-family: "Bariol";
+    color: rgb(97, 97, 97);
+    line-height: 1.5;
+    text-align: center;
+}
+
+.box1 p, .box2 p {
+    font-size: 1vw;
+    font-family: "Bariol";
+    color: rgb(235, 79, 78);
+    line-height: 1.25;
+    text-align: center;
+}
+
+.box1 ul {
+    font-size: 1.2vw;
+    font-family: "Bariol";
+    color: rgb(97, 97, 97);
+    line-height: 2.778;
+    text-align: center;
+    height: 187px;
+}
+
+.box1 ul hr, .box2 ul hr {
+    border: 1px solid #e5e2e2;
+}
+
+.box1-box {
+    width: 100%;
+    height: 60px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section5 {
+    width: 56%;
+    margin: auto;
+    height: 274px;
+}
+
+.box1-box img {
+    height: 19px;
+    width: 5%;
+}
+
+
+.box1-box .mo {
+    font-size: 1.7vw;
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.box1-box .num {
+    font-size: 3vw;
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.box1-box button {
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 36%;
+    height: 29px;
+    font-size: 1.5vw;
+    font-family: "Bariol";
+    color: rgb(97, 97, 97);
+}
+
+.h2p {
+    background-color: rgb(255, 255, 255);
+}
+
+.section5 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box2 h2 {
+    font-size: 2vw;
+    font-family: "Bariol";
+    color: rgb(235, 79, 78);
+    line-height: 1.5;
+    text-align: center;
+}
+
+.box2 h5 {
+    font-size: 1vw;
+    font-family: "Bariol";
+    color: rgb(35, 35, 36);
+    line-height: 1.25;
+    text-align: center;
+    width: 65%;
+    margin: auto;
+}
+
+.text {
+    font-size: 1vw;
+    font-family: "Bariol";
+    color: rgb(235, 79, 78);
+    line-height: 1.2;
+    text-align: center;
+    height: 45px;
+}
+
+.section6 {
+    height: 190px;
+    background-color: rgb(235, 79, 78);
+    width: 100%;
+}
+
+.section6 h3 {
+    font-size: 2vw;
+    font-family: "Bariol";
+    color: rgb(255, 255, 255);
+    line-height: 1.6;
+    text-align: center;
+}
+
+.section6 p {
+    font-size: 1vw;
+    font-family: "Bariol";
+    color: rgb(35, 35, 36);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.section6 img {
+    width: 32px;
+    height: 26px;
+}
+
+.section6 .text2 {
+    font-size: 1vw;
+    font-family: "Bariol";
+    color: rgb(31, 31, 32);
+    line-height: 6;
+    text-align: center;
+}
+
+.fa.fa-angle-left, .fa.fa-angle-right {
+    color: white;
+    font-size: 1.4vw;
+}
+
+.angles {
+    display: flex;
+    justify-content: space-around;
+}
+
+.angle-left, .angle-right {
+    width: 1.7%;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.fa.fa-twitter {
+    color: white;
+    font-size: 25px;
+}
+
+.twitter2 {
+    width: 2%;
+    margin: auto;
+    line-height: 3;
+}
+
+.section7 img {
+    height: 296px;
+    width: 100%;
+    position: absolute;
+}
+
+.icon1, .icon2, .icon3 {
+    border-radius: 0px;
+    background-color: rgb(235, 79, 78);
+    width: 28px;
+    height: 25px;
+    text-align: center;
+    margin: auto;
+    line-height: 2vw;
+}
+
+.sec7 {
+    display: flex;
+    width: 53%;
+    margin: auto;
+}
+
+.sec7 p {
+    margin: auto;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-around;
+    width: 17%;
+    margin: auto;
+    height: 41px;
+}
+
+.section7 {
+    background-color: black;
+    color: white;
+}
+
+.blackbox {
+    position: absolute;
+    width: 36%;
+    height: 136px;
+    left: 33%;
+    margin-top: 8%;
+    border-radius: 5px;
+    background-color: #000;
+    opacity: .8;
+}
+
+.blackbox h3 {
+    font-size: 1.8vw;
+    font-family: "Bariol";
+    color: rgb(255, 255, 255);
+    line-height: 2;
+    text-align: center;
+}
+
+.blackbox p {
+    font-size: 1vw;
+    font-family: "Bariol";
+    color: rgb(235, 79, 78);
+    line-height: 1.8;
+    text-align: center;
+}
+
+.fa.fa-bars {
+    display: none;
+}
+
+.imagesMedia {
+    display: none;
+}
