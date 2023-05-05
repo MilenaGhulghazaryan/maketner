@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.site {
+    background-image: url(images/images.jpg);
+    background-size: 100% 100%;
+}
+
+.button1 {
+    width: 26%;
+    height: 32%;
+    background-color: #1a8787;
+    border: none;
+    font-size: 0.9vw;
+    border-radius: 5px;
+    color: white;
+}
+
+.all {
+    width: 62%;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    height: 70px;
+}
+
+.links ul {
+    display: flex;
+    width: 60%;
+}
+
+.links {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.links li {
+    font-size: 1.1vw;
+    background-color: rgb(59, 58, 58);
+    width: 24%;
+    height: 33px;
+    text-align: center;
+    border-radius: 6px 6px 0 0;
+}
+
+.user {
+    display: flex;
+    justify-content: flex-end;
+    gap: 3%;
+    height: 56%;
+    color: white;
+}
+
+.header2 {
+    width: 82%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.links li:hover {
+    background-color: rgb(0, 128, 255);
+    cursor: pointer;
+}
+
+.section {
+    background-color: rgb(56, 54, 54);
+    height: 1100px;
+}
+
+.search {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.search1 {
+    margin-top: 4%;
+    height: 77px;
+}
+
+.search1 input {
+    width: 50%;
+    border: none;
+    border-radius: 4px;
+    height: 23px;
+}
+
+.box {
+    width: 30%;
+    height: 200px;
+    background-color: yellow;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+    background-color: #ff7c00;
+}
+
+.box2 {
+    background-color: rgb(32 225 57);
+}
+
+.box3 {
+    background-color: rgb(0, 157, 255);
+}
+
+.section1 {
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box h1 {
+    line-height: 23px;
+    font-size: 22px;
+}
+
+.box button {
+    background-color: rgb(220, 220, 32);
+    border: 1px solid rgb(245, 222, 16);
+    border-radius: 3px;
+    width: 45%;
+    height: 27px;
+    color: white;
+}
+
+.box .button2 {
+    background-color: rgba(0, 128, 0, 0.5);
+    border: 1px solid rgb(5, 84, 11);
+}
+
+.box .button3 {
+    background-color: rgba(14, 97, 145, 0.5);
+    border: 1px solid rgb(5, 58, 84);
+}
+
+.fa.fa-briefcase {
+    font-size: 4vw;
+    color: rgb(255, 174, 0);
+}
+
+.fa.fa-clock-o {
+    font-size: 4vw;
+    color: black;
+}
+
+.fa.fa-desktop {
+    font-size: 4vw;
+    color: aqua;
+}
+
+.fa.fa-lock {
+    color: #ff7c00;
+}
+
+.part1 {
+    display: flex;
+}
+
+.navigation {
+    width: 51%;
+    height: 200px;
+    background-color: rgb(87, 86, 86);
+    border-radius: 5px;
+}
+
+.new {
+    width: 51%;
+    height: 410px;
+    background-color: rgb(87, 86, 86);
+    border-radius: 5px;
+}
+
+.new ul {
+    margin-left: 11%;
+}
+
+.navigation ul {
+    margin-left: 11%;
+}
+
+.nav {
+    background-color: green;
+    height: 30px;
+    border-radius: 5px;
+    width: 100%;
+    color: white;
+}
+
+.corporatex a {
+    color: black;
+    text-decoration: none;
+}
+
+.newPost {
+    background-color: rgb(0, 119, 255);
+    height: 30px;
+    border-radius: 5px;
+
+}
+
+.section234 {
+    display: flex;
+}
+
+.section4 {
+    width: 53%;
+    height: 700px;
+    margin-left: -20%;
+    background-color: aliceblue;
+}
+
+.imgText {
+    display: flex;
+    font-size: 1.1vw;
+    margin: 2%;
+    gap: 2%;
+}
+
+.admin {
+    background-color: rgb(0, 255, 68);
+    border-radius: 10px 0 0 10px;
+    width: 23%;
+    height: 27px;
+    border: none;
+}
+
+.admin2 {
+    background-color: aqua;
+    border-radius: 0 10px 10px 0;
+    width: 23%;
+    height: 27px;
+    border: none;
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.section5 {
+    margin-top: 4%;
+}
+
+.textImg {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn3 {
+    background-color: rgb(45, 170, 45);
+    border: none;
+    height: 30px;
+    width: 18%;
+    font-size: 0.8vw;
+    border-radius: 6px;
+    color: white;
+}
+
+.section23 {
+    width: 45%;
+}
+
+.section7 {
+    width: 24%;
+    height: 220px;
+    background-color: rgb(87, 86, 86);
+    border-radius: 5px;
+}
+
+.comments ul {
+    margin-left: 14%;
+}
+
+.recent {
+    background-color: rgb(255, 191, 0);
+    height: 30px;
+    border-radius: 5px;
+}
+
+.section8 {
+    width: 100%;
+    height: 72px;
+    background-color: rgb(87, 86, 86);
+    border-radius: 5px;
+}
+
+.section8 h4, .section9 h4 {
+    height: 30px;
+    border-radius: 5px;
+}
+
+.section8 {
+    color: white;
+}
+
+.vote {
+    background-color: aqua;
+    border: none;
+    width: 24%;
+    height: 20px;
+    color: white;
+}
+
+.section9 {
+    color: white;
+    width: 100%;
+    height: 147px;
+    background-color: rgb(87, 86, 86);
+    border-radius: 5px;
+}
+
+.section10 {
+    color: white;
+}
+
+p {
+    font-size: 1vw;
+}
+
+/* h3,h1,h2,h4{
+    font-size: 1.2vw;
+} */

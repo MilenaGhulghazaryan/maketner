@@ -1,0 +1,41 @@
+@media screen and (max-width:1300px) {
+    .sec2 {
+        height: 1070px;
+    }
+}
+
+@media screen and (max-width:976px) {
+    .info {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:776px) {
+    .info {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:990px) {
+    .sec4 {
+        width: 52%;
+        height: 233px;
+        padding: 15px 14px 11px 27px;
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-left: 2.5%;
+    }
+}
+
+@media screen and (max-width:1184px) {
+    .section {
+        margin: 0 7% 2% 14%;
+    }
+}
+
+@media screen and (max-width:770px) {
+    .section {
+        margin: 0px 8% 10% 6%;
+    }
+}
